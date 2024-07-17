@@ -1,0 +1,54 @@
+.home_div {
+    padding: 15px;
+    zoom: 85%;
+}
+
+.home_heading {
+    color: #313265;
+    font-family: Barlow;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.main_card_div {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    margin-top: 20px;
+}
+
+.card_heading_cus {
+    color: #313265;
+    /* text-align: center; */
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.badge_container {
+    left: 10px;
+    bottom: 12px;
+    position: absolute;
+    display: flex;
+    padding: 6px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background: rgba(188, 188, 202, 0.25);
+}
+
+.badge_text {
+    color: #818199;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}

@@ -1,0 +1,166 @@
+.dashboard-main {
+  margin: 20px;
+}
+
+.dashboard-input {
+  text-indent: 20px;
+  border-radius: 5px;
+  border: 1px solid #313265;
+  padding: 5px 10px;
+  width: 300px;
+}
+
+.search-main {
+  position: absolute;
+  margin-right: -15px;
+  margin-top: 4px;
+}
+
+.dash-card {
+  border-radius: 5px;
+  border: 1px solid #bcbcca;
+  background: #fff;
+  box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-img {
+  position: relative;
+}
+
+.card-click {
+  display: none;
+  /* position: absolute;
+  top: 15px;
+  left: 15px; */
+}
+
+.card-img-main:hover > .card-click {
+  display: block;
+  position: absolute;
+  top: 11%;
+  left: 5%;
+}
+
+/* .card-img:hover{
+    background-image: url("..//Images/Card_click.svg");
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-position: 3% 28%;
+    cursor: pointer;
+} */
+
+.dashboard-card-list {
+  background-color: #ffffff;
+  border-radius: 5px;
+  height: calc(100vh - 130px);
+  overflow-y: auto;
+}
+
+.dash-card-title {
+  margin-top: -25px !important;
+  color: #313265;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.dash-card-body {
+  padding: 10px !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.dash-card-text {
+  color: #313265;
+  font-family: Barlow;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  height: 52px;
+}
+.dash-card-views {
+  border-radius: 5px;
+  background:#F46F22;
+  width: 75px;
+  height: 25px;
+  flex-shrink: 0;
+  padding: 5px 10px;
+  color: #fff;
+  font-family: Barlow;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f5f5f5;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #bcbcca;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #bcbcca;
+}
+
+svg {
+  max-width: 100%;
+}
+
+.loading-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 79%;
+}
+
+.image {
+  width: 250px;
+  top: 40%;
+  position: fixed;
+}
+
+.other-text{
+  font-weight: 600;
+  padding: 10px;
+  color:#313265;
+  font-size: 16px;
+  font-family: "Barlow";
+}
+.info-icon{
+  float: right;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.info-icon:hover{
+  content: url("../Images/InfoIconHover.svg");
+}
+
+.dash-card-doc{
+  float: right;
+  margin-top: -10px;
+  cursor: pointer;
+}
+
+.dash-card-doc:hover{
+  content: url("../Images/DocIconHover.svg");
+}
+
+.dash-tooltip{
+  z-index: 10;
+}
